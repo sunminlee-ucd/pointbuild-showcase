@@ -1,5 +1,7 @@
 # PointBuild
 
+**Status: In development — local prototype. This is not a finished or generally released product.**
+
 **A visual review and editing prototype that connects an element in a running web application to a scoped, previewable, verifiable source-code change.**
 
 I am developing PointBuild to reduce the gap between noticing a UI problem and applying the exact intended correction. The user should be able to select an area, adjust the result visually, understand the impact, apply it, and undo it without needing to understand the internal Git and validation pipeline.
@@ -7,11 +9,13 @@ I am developing PointBuild to reduce the gap between noticing a UI problem and a
 | At a glance | |
 | --- | --- |
 | My role | Project owner and developer, covering product workflow, source instrumentation, editing controls, and verification |
-| Stage | Local React/Vite prototype with implemented deterministic editing and review workflows |
+| Stage | In development: local React/Vite prototype; broader product completion and usability validation are ongoing |
 | Engineering focus | DOM-to-source identity, bounded changes, design-token reuse, isolated staging, and reversible Git history |
 | This repository | Public technical case study; the full implementation remains private |
 
 [Problem and motivation](#problem-and-motivation) · [Architecture](#architecture) · [Core engineering](#core-engineering) · [Technology stack](#technology-stack) · [Verification and limitations](#verification-and-limitations)
+
+**Inspect runnable code:** [source-derived target-identity example and tests](examples/). This small example demonstrates one implemented mechanism; it is not the complete visual editor.
 
 ## Problem and motivation
 

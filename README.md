@@ -1,5 +1,9 @@
 # PointBuild
 
+[![Public sample checks](https://github.com/sunminlee-ucd/pointbuild-showcase/actions/workflows/sample-checks.yml/badge.svg)](https://github.com/sunminlee-ucd/pointbuild-showcase/actions/workflows/sample-checks.yml)
+
+*Checks cover the standalone public sample; full application integration and deployment are outside their scope.*
+
 **Status: In development — local prototype. This is not a finished or generally released product.**
 
 **A visual review and editing prototype that connects an element in a running web application to a scoped, previewable, verifiable source-code change.**

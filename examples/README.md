@@ -18,3 +18,7 @@ Two visually identical buttons in a repeated component should not automatically 
 This is one small part of an **unfinished local prototype**. It does not implement the Vite/Babel instrumentation, source lookup, patch validation, editor UI, or Git history described in the case study.
 
 The compact hash is non-cryptographic and can collide; it is not an authorization mechanism or a proof of globally unique identity. Identity hints are expected to come from the controlled instrumentation/selection pipeline, not arbitrary untrusted input.
+
+## Automated checks
+
+The [public sample workflow](../.github/workflows/sample-checks.yml) runs the focused tests and synthetic demo on pushes and pull requests. It uses no application credentials or private repositories. Passing these checks does not certify the complete private application or its deployment.
